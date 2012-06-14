@@ -17,6 +17,7 @@ fi
 
 unzip -d build upstream-plugins/sogo-integrator-$VERSION-sogo-demo.xpi
 sed -i s%$UPSTREAM_URL%$OUR_URL%g build/chrome/content/extensions.rdf
+sed -i "s%</Seq>%  <li>\n      <Description\n        em:id=\"{e2fda1a4-762b-4020-b5ad-a41df1933103}\"\n        em:name=\"Lightning\"/>\n    </li>\n  </Seq>%g" build/chrome/content/extensions.rdf
 
 cd build
 zip -r sogo-integrator-$VERSION.xpi *
