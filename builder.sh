@@ -19,7 +19,7 @@ unzip -d build upstream-plugins/sogo-integrator-$VERSION-sogo-demo.xpi
 sed -i s%$UPSTREAM_URL%$OUR_URL%g build/chrome/content/extensions.rdf
 
 cd build
-zip sogo-integrator-$VERSION.xpi *
+zip -r sogo-integrator-$VERSION.xpi *
 mv sogo-integrator-$VERSION.xpi ../
 
 cd ..
