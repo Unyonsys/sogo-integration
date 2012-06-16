@@ -36,7 +36,7 @@ $plugins
 	    "{e2fda1a4-762b-4020-b5ad-a41df1933103}"
 		 => array( "application" => "thunderbird",
 		      	   "version" => "1.4",
-			       "filename" => "lightning-1.4-sm+tb-linux.xpi" ),
+			       "filename" => "lightning-1.4-sm+tb.xpi" ),
 );
 
 $applications

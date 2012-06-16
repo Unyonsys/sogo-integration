@@ -3,7 +3,7 @@
 VERSION=10.0.2
 SOURCE_URL=http://www.sogo.nu/files/downloads/extensions
 UPSTREAM_URL=http://sogo-demo.inverse.ca
-OUR_URL=https://mail.unyonsys.com
+OUR_URL=$1
 
 rm -rf build
 mkdir build
